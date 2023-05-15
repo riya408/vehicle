@@ -1,0 +1,94 @@
+.addscenario {
+    display: flex;
+    justify-content: center;
+  }
+  .addscenario p {
+    color: rgb(0, 0, 0);
+  }
+  .addscenario-head h1 {
+    display: flex;
+    margin: 50px;
+  }
+  
+  /* .addscenario-input{
+      border: 2px solid black;
+      
+  } */
+  
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background: #a17070;
+    font-size: 16px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .container {
+    width: 500px;
+    height: 42px;
+    margin: 100px;
+    border-radius: 4px;
+    background: #1a641b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    margin: 0px;
+    
+  }
+  .ui_text_field {
+    position: relative;
+    width: 100%;
+  }
+  .ui_text_field input {
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  .ui_text_field label {
+    position: absolute;
+    top: -50%;
+    transform: translateY(-50%);
+    left: 15px;
+    color: #fff
+  }
+  
+  .button-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+  }
+  
+  .button-container button {
+    margin: 2px 22px 56px;
+    padding: 10px;
+  }
+  #goback{
+      background-color: navy;
+      color: #fff;
+      border-radius: 5px;
+     border: none;
+     cursor: pointer;
+  }
+  #reset{
+      background-color: orange;
+      color: #fff;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+  }
+  #Add{
+      background-color: green;
+      color: #fff;
+      border-radius: 5px;
+     border: none;
+     cursor: pointer;
+  }
+  

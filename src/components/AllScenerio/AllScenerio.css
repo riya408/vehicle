@@ -1,0 +1,103 @@
+.AllScenario{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+:root {
+  --white: #fff;
+  --darkblue: #1b4965;
+  --lightblue: #edf2f4;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/* TABLE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.table-wrapper {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  flex-direction: column;
+}
+
+
+.table-wrapper table {
+  margin: 50px 0 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-wrapper table th,
+.table-wrapper table td {
+  padding: 10px;
+  min-width: 75px;
+}
+
+.table-wrapper table th {
+  color: var(--white);
+  background: var(--darkblue);
+}
+
+.table-wrapper table tbody tr:nth-of-type(odd) > * {
+  background: var(--lightblue);
+}
+.table-wrapper table tbody tr:nth-of-type(even) > * {
+  background: var(--lightblue);
+}
+
+.table-wrapper table td:first-child {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-gap: 10px;
+  text-align: left;
+}
+
+
+
+
+.page-footer a {
+  display: flex;
+  margin-left: 4px;
+}
+.button-containers button {
+  margin:15px 22px;
+  padding: 10px;
+}
+
+
+.button-containers{
+  display: flex;
+  justify-content: center;
+}
+
+#resetbtn{
+  background-color: navy;
+    color: #fff;
+    border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
+#Addbtn{
+  background-color:rgb(75, 75, 237);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#Newbtn{
+  background-color:rgb(237, 191, 75);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
